@@ -1,0 +1,18 @@
+// --- Graphics Manager ---
+using UnityEngine;
+
+public class GraphicsManager : MonoBehaviour
+{
+    public Light sceneLight;
+    
+    void Start()
+    {
+        SetupGraphics();
+    }
+    
+    void SetupGraphics()
+    {
+        sceneLight.intensity = 1.0f;
+        Debug.Log("Graphics settings applied.");
+    }
+}
