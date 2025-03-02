@@ -15,7 +15,7 @@ public class SystemAnalyzer : MonoBehaviour
         
         Debug.Log($"Detected GPU: {gpu}, VRAM: {vram} MB, RAM: {ram} MB");
         
-        if (vram > 5000)
+        if (vram > 8000)
         {
             QualitySettings.SetQualityLevel(5); // Ultra
         }
