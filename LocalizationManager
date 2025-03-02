@@ -1,0 +1,12 @@
+// --- Localization ---
+using UnityEngine;
+using System.Globalization;
+
+public class LocalizationManager : MonoBehaviour
+{
+    public void SetLanguage(string langCode)
+    {
+        CultureInfo.CurrentCulture = new CultureInfo(langCode);
+        Debug.Log($"Language set to {langCode}");
+    }
+}
