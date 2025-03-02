@@ -1,0 +1,10 @@
+// --- Narrative System ---
+using UnityEngine;
+
+public class DialogueSystem : MonoBehaviour
+{
+    public void StartDialogue()
+    {
+        Debug.Log("Dialogue started.");
+    }
+}
