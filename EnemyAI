@@ -1,0 +1,13 @@
+// --- AI System ---
+using UnityEngine;
+
+public class EnemyAI : MonoBehaviour
+{
+    public Transform player;
+    
+    void Update()
+    {
+        transform.LookAt(player);
+        Debug.Log("Enemy AI tracking player.");
+    }
+}
