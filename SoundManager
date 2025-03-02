@@ -1,0 +1,12 @@
+// --- Sound Manager ---
+using UnityEngine;
+
+public class SoundManager : MonoBehaviour
+{
+    public AudioSource backgroundMusic;
+    
+    void Start()
+    {
+        backgroundMusic.Play();
+    }
+}
