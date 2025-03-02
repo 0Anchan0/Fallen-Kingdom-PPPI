@@ -1,0 +1,15 @@
+// --- World Manager ---
+using UnityEngine;
+
+public class WorldManager : MonoBehaviour
+{
+    void Start()
+    {
+        LoadWorld();
+    }
+    
+    void LoadWorld()
+    {
+        Debug.Log("World Loaded.");
+    }
+}
